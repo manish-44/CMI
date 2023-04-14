@@ -88,7 +88,4 @@ Any `user` can review/download the documents uploaded by other users/stduents.
 
 
 
-### Video Demo Link:
 
-
-[Click Here](https://www.loom.com/share/1dedbcec79504917a74cf21e415834df)
