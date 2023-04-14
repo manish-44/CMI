@@ -1,33 +1,94 @@
-# Conference Management Portal
- This is our Design Credit project for this semester.
-
-## Installation using docker(recommended)
-
-1. Clone the repo `$ git clone https://github.com/laur1s/PHP-Registration-Form.git`
-2. Run `docker-compose up -d` This will fetch PHP and MySQL Docker images, launch apache on http://localhost:8080 and MySQL on port 3306
-3. If you want to stop the service just run `docker-compose down`
- 
-# Here are the deliverables we are targeting to complete:
- 
-1. Login based access to the portal.
-2. Users who would be presenting a paper at the conference can upload PDF files, jpg files and video files.
-3. Other users who are attending the conference will be able to visit the pages corresponding to each paper and view the uploaded files.
-4. There will be an admin login who can give privileges to various users (for example, if and what kind of files they are allowed to upload).
+# CMI: A Conference Management Portal for students at IITJ
 
 
-## Mentor
 
-[Dr. Gaurav Harit](mailto:gharit@iitj.ac.in)
+Mentor: Dr. Gaurav Harit
 
-## Team
+> "क्या पूराने पीएचडी छात्रों के थीसिस देख सकते हैं"
+>                                  -Junior Batch Student
+
+
+## Problem Statement
+
+It is common for Ph.D. students to present their thesis at Senate meetings at IITJ. Now, these students can present their work in any format they choose, such as ppt or videos. Keeping the track of all these documents is cumbersome. With the aim of making this process easier, I designed a platform that allows administrators to access all these documents in one place and other students to view them easily. 
+Thus, this project is aimed to develop a conference management portal for students at IITJ to upload their presentations in any format they select, including video, pdf, poster, ppt, etc., and other students or staff members can review them. 
+A specific student will be authorized to upload their work based on authenticity by the admin.
+
+
+## Tech Stack
+
+> Backend: `C#`
+
+> Database: `MSSQL`
+
+> Frontend: `Asp.Net`,`HTML`, `CSS`, `Bootstrap`, `Javascript`
+
+> Hosting: `Azure`(Will be Deployed)
+
+## Student
 
 | Name                                               | Year      | Department                       |
 | -------------------------------------------------- | --------- | -------------------------------- |
-| [Neeraj](https://github.com/neeraj-2)              |Junior| Computer Science and Engineering |
-| [Tanuj Bhardwaj](https://github.com/tanuj0110) | Junior | Electrical Engineering           |
-| [Manav Kapoor](https://github.com/manav1403)    | Junior|Electrical Engineering  |
+| [Neeraj](https://github.com/neeraj-2)              |Senior| Computer Science and Engineering |
+| [Manish Meena](https://github.com/manish-44)              |Senior| Electrical Engineering |
 
 
-Raw Wireframe design for the application is here:
 
-[Click to Open](https://whimsical.com/designcreditproject-DHjnqHa7hi9H5Z8c12vxr1)
+## About the portal
+
+
+#### Home Page
+
+Home page of the portal from where an `Admin`/`Student` can be redirected to be logged in to the portal and can access other pages as well.
+
+![Screenshot from 2022-12-10 04-28-20](https://user-images.githubusercontent.com/56186425/206811737-743f3de3-1475-44ea-a4c4-14abc96abf8b.png)
+
+
+#### Admin Login Page
+
+
+An `admin` can enter their credentails to log in to the portal
+
+![Screenshot from 2022-12-10 04-31-25](https://user-images.githubusercontent.com/56186425/206811761-dff2bf87-42f8-4a47-ae50-ff2fc9eb920d.png)
+
+
+#### Member/Student Management Page
+
+An `admin` has access to authorize a given `student/user` to upload his/her work by making the account status as **Active**  
+
+![Screenshot from 2022-12-10 04-39-07](https://user-images.githubusercontent.com/56186425/206811806-6c78680f-f563-4c12-80db-c9a2308af4f3.png)
+
+
+#### Student/Member Login
+
+A `student/user` can provide their LDAP credentials to log in to the portal   
+
+![Screenshot from 2022-12-10 04-40-08](https://user-images.githubusercontent.com/56186425/206811914-d2236bd8-5c07-4629-a388-2828149cf8f0.png)
+
+
+#### Student Dashboard
+
+A logged in student can access different authorized tabs from his/her dashboard
+
+![Screenshot from 2022-12-10 04-41-26](https://user-images.githubusercontent.com/56186425/206811937-663116bc-c877-44de-b920-04075917923f.png)
+
+
+#### Upload Document Page
+
+A logged in authorize `student/user` can upload his/her work on the portal
+
+![Screenshot from 2022-12-10 04-42-51](https://user-images.githubusercontent.com/56186425/206811992-7d6337cb-edcf-429b-a801-22380042f81c.png)
+
+
+#### View/Download Document Page
+
+Any `user` can review/download the documents uploaded by other users/stduents. 
+
+![Screenshot from 2022-12-10 04-48-11](https://user-images.githubusercontent.com/56186425/206812020-42928a79-c2b3-4534-99cd-469ad387f0af.png)
+
+
+
+### Video Demo Link:
+
+
+[Click Here](https://www.loom.com/share/1dedbcec79504917a74cf21e415834df)
